@@ -180,6 +180,7 @@ button {
     font-size: 16px;
     color: #ffffff;
     margin-left: 0px;
+    text-align: justify;
 }
  
 /* About */
@@ -234,7 +235,7 @@ input.email-bt::placeholder {
     color: #fffcf4;
 }
 
-.massage-bt {
+.message-bt {
     background: transparent;
     border-bottom: 1px solid #fffcf4;
     border-top: 0px;
@@ -247,7 +248,7 @@ input.email-bt::placeholder {
     padding: 20px 20px 20px 0px;
 }
 
-textarea#comment.massage-bt::placeholder {
+textarea#comment.message-bt::placeholder {
     color: #fffcf4;
 }
 
