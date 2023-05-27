@@ -1,1 +1,0 @@
-this website is for Mini Project 1.
