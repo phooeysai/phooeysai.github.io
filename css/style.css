@@ -232,3 +232,28 @@ img, svg {
     image-rendering: crisp-edges;
     image-resolution: 100%;
 }
+
+
+
+.imgbox{
+    position: fixed;
+    position: center;
+    width: 50%;
+    height: 30%;
+    margin-left: 38%;
+}
+.imgbox img{
+    position: relative;
+    height: 100%;
+    width: 30%;
+    top: 100px;
+    right: 50px;
+    animation: animateUser 4s linear infinite;
+}
+
+@keyframes animateUser{
+    50%{
+        right: 30px;
+        top: -90px;
+    }
+}
